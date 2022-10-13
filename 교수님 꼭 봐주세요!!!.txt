@@ -1,0 +1,18 @@
+build.gradle 모듈에
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android-extensions'
+}
+
+id 'kotlin-android-extensions'을 추가했습니다.
+
+추가로 import 했습니다.
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_main.result
+import kotlinx.android.synthetic.main.activity_main.plus
+
+여행지에 프로그래스바를 설정하였습니다.
+계산기는 B계산기로 하였습니다.
+
+test는 풀파일 입니다. 혹시몰라서 보내봅니다.
